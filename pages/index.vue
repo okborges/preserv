@@ -1,5 +1,5 @@
 <template>
-  <Header />
+<h3>meu deus, meu sonheo, me ajudar</h3>
 </template>
 
 <script>
