@@ -1,11 +1,13 @@
 <template>
-  <main>
-    <section class="max-w-6xl mx-auto mt-24">
-      <p class="text-center mb-4 text-xl font-bold cor-azul">Especialista</p>
-      <h2 class="text-black font-bold text-center sm:text-5xl" id="">
+  <main class="mx-8">
+    <section class="max-w-6xl mx-auto mt-8 sm:mt-24">
+      <p class="hidden text-center mb-4 text-xl font-bold cor-azul">
+        Especialista
+      </p>
+      <h2 class="text-black font-bold text-center text-2xl sm:text-5xl" id="">
         Por que escolher a Preserv?
       </h2>
-      <p class="text-center text-xl font-bold cor-cinza pt-4">
+      <p class="text-center font-bold cor-cinza pt-4 sm:text-xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat<br />
         ullamcorper tortor mauris faucibus tortor, sagittis nam.
       </p>

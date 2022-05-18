@@ -1,7 +1,8 @@
 <template>
   <footer class="text-center mt-20 mb-14">
     <p class="azul-escuro p-4 text-white">
-      Copyright © 2022 Preserv. Todos os direitos reservados.
+      Copyright © 2022 Preserv.<br class="sm:hidden" />
+      Todos os direitos reservados.
     </p>
   </footer>
 </template>
