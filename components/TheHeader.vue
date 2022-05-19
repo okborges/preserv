@@ -6,12 +6,12 @@
     <div class="mx-8">
       <div class="max-w-6xl mx-auto sm:mt-9">
         <div
-          class="flex justify-center items-center mt-4 sm:mt-0 sm:justify-between"
+          class="flex justify-center items-center mt-4 sm:mt-0 lg:justify-between"
         >
           <a href="/" class="logo"><LogoPreserv /></a>
 
           <div class="flex space-x-7">
-            <nav class="hidden sm:flex">
+            <nav class="hidden lg:flex">
               <ul class="fonte-azul space-x-4 flex font-bold">
                 <li><a href="/" class="p-2">Home</a></li>
                 <li><a href="#servicos" class="p-2">Serviços</a></li>
@@ -22,8 +22,10 @@
             </nav>
           </div>
         </div>
-        <nav class="flex justify-center mt-7 sm:hidden">
-          <ul class="fonte-azul space-x-6 flex bloquinho font-bold">
+        <nav class="flex justify-center mt-7 lg:hidden">
+          <ul
+            class="fonte-azul gap-6 flex flex-wrap bloquinho font-bold justify-center"
+          >
             <li><a href="/">Home</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#produtos">Produtos</a></li>
