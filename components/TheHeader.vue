@@ -1,28 +1,37 @@
 <template>
-  <header class="mx-8">
-    <div class="max-w-6xl mx-auto sm:pt-7">
-      <div
-        class="flex justify-center items-center mt-4 sm:justify-between sm:mt-12"
-      >
-        <a href="/" class="logo"><LogoPreserv /></a>
+  <header>
+    <div class="hidden sm:block">
+      <TopHeader />
+    </div>
+    <div class="mx-8">
+      <div class="max-w-6xl mx-auto sm:mt-9">
+        <div
+          class="flex justify-center items-center mt-4 sm:mt-0 sm:justify-between"
+        >
+          <a href="/" class="logo"><LogoPreserv /></a>
 
-        <div class="flex space-x-7">
-          <nav class="hidden sm:flex">
-            <ul class="nav space-x-4 flex font-bold">
-              <li><a href="#sobreMim" class="p-2">Sobre</a></li>
-              <li><a href="#projetos" class="p-2">Projetos</a></li>
-              <li><a href="#" class="p-2">Contato</a></li>
-            </ul>
-          </nav>
+          <div class="flex space-x-7">
+            <nav class="hidden sm:flex">
+              <ul class="fonte-azul space-x-4 flex font-bold">
+                <li><a href="/" class="p-2">Home</a></li>
+                <li><a href="#servicos" class="p-2">Serviços</a></li>
+                <li><a href="#produtos" class="p-2">Produtos</a></li>
+                <li><a href="#clientes" class="p-2">Clientes</a></li>
+                <li><a href="#contato" class="p-2">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
+        <nav class="flex justify-center mt-7 sm:hidden">
+          <ul class="fonte-azul space-x-6 flex bloquinho font-bold">
+            <li><a href="/">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="flex justify-center mt-7 sm:hidden">
-        <ul class="nav space-x-6 flex bloquinho font-bold">
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 </template>
@@ -34,10 +43,6 @@ export default { components: { TopHeader, LogoPreserv } };
 </script>
 
 <style scoped>
-.bg-header {
-  background-color: #fafafa;
-}
-
 .fonte-azul {
   color: #0ea5e9;
 }
