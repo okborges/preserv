@@ -8,12 +8,12 @@
         <div
           class="flex justify-center items-center mt-4 sm:mt-0 lg:justify-between"
         >
-          <a href="/" class="logo"><LogoPreserv /></a>
+          <NuxtLink to="/" class="logo"><LogoPreserv /></NuxtLink>
 
           <div class="flex space-x-7">
             <nav class="hidden lg:flex">
               <ul class="fonte-azul space-x-4 flex font-bold">
-                <li><a href="/" class="p-2">Home</a></li>
+                <li><NuxtLink to="/" class="p-2">Home</NuxtLink></li>
                 <li><a href="#servicos" class="p-2">Serviços</a></li>
                 <li><a href="#produtos" class="p-2">Produtos</a></li>
                 <li><a href="#clientes" class="p-2">Clientes</a></li>
