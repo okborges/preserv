@@ -77,7 +77,7 @@ export default {};
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
-@keyframes fad {
+@keyframes fade {
   25% {
     background-image: url(/img/img2.webp);
   }
