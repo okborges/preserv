@@ -3,6 +3,7 @@
     <SectionHero />
     <SectionCards />
     <AboutUs />
+    <NossosParceiros />
   </main>
 </template>
 
@@ -10,7 +11,10 @@
 import SectionCards from "./SectionCards.vue";
 import SectionHero from "./SectionHero.vue";
 import AboutUs from "./AboutUs.vue";
-export default { components: { SectionCards, SectionHero, AboutUs } };
+import NossosParceiros from "./NossosParceiros.vue";
+export default {
+  components: { SectionCards, SectionHero, AboutUs, NossosParceiros },
+};
 </script>
 
 <style scoped></style>
