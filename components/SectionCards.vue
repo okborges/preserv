@@ -3,10 +3,10 @@
     <p class="hidden text-center mb-4 text-xl font-bold cor-azul">
       Especialista
     </p>
-    <h2 class="text-black font-bold text-center text-2xl sm:text-5xl" id="">
+    <h2 class="text-gray-900 font-bold text-center text-2xl sm:text-5xl" id="">
       Por que escolher a Preserv?
     </h2>
-    <p class="text-center font-bold cor-cinza pt-4 sm:text-xl">
+    <p class="text-gray-500 text-center font-bold pt-4 sm:text-xl">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat<br />
       ullamcorper tortor mauris faucibus tortor, sagittis nam.
     </p>
@@ -26,8 +26,10 @@
               fill="#0EA5E9"
             />
           </svg>
-          <p class="font-bold text-lg mt-8 mb-5">Seguimos normas técnicas</p>
-          <p class="text-center">
+          <p class="text-gray-900 font-bold text-lg mt-8 mb-5">
+            Seguimos normas técnicas
+          </p>
+          <p class="text-gray-500 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             voluptatem fugit amet distinctio in exercitationem animi ea.
           </p>
@@ -105,8 +107,10 @@
             />
           </svg>
 
-          <p class="font-bold text-lg mt-8 mb-5">Somos sustentáveis</p>
-          <p class="text-center">
+          <p class="text-gray-900 font-bold text-lg mt-8 mb-5">
+            Somos sustentáveis
+          </p>
+          <p class="text-gray-500 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             voluptatem fugit amet distinctio in exercitationem animi ea.
           </p>
@@ -127,8 +131,10 @@
               fill="#2B9CED"
             />
           </svg>
-          <p class="font-bold text-lg mt-8 mb-5">Experiência Certificada</p>
-          <p class="text-center">
+          <p class="text-gray-900 font-bold text-lg mt-8 mb-5">
+            Experiência Certificada
+          </p>
+          <p class="text-gray-500 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             voluptatem fugit amet distinctio in exercitationem animi ea.
           </p>
@@ -154,8 +160,5 @@ export default {};
 }
 .cor-azul {
   color: #0c4a6e;
-}
-.cor-cinza {
-  color: #94958f;
 }
 </style>

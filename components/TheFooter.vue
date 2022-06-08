@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center mt-20 mb-14">
+    <div class="text-center mt-20 ">
       <p class="azul-escuro p-4 text-white">
         Copyright © 2022 Preserv.<br class="sm:hidden" />
         Todos os direitos reservados.
