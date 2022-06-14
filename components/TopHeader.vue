@@ -16,7 +16,7 @@
                 fill="#006490"
               />
             </svg>
-            <p class="text-sm">(11) 5073-3313 / (11) 9 9166-2288</p>
+            <p class="text-sm">(11) 3384-3313 / (11) 9 9166-2288</p>
           </div>
           <div class="flex space-x-2 items-center">
             <svg

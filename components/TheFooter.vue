@@ -48,14 +48,10 @@
         </div>
       </div>
     </div>
-    <div class="text-center mt-20 ">
+    <div class="text-center mt-20">
       <p class="azul-escuro p-4 text-white">
         Copyright © 2022 Preserv.<br class="sm:hidden" />
         Todos os direitos reservados.
-      </p>
-      <p class="laranjinha text-white">
-        Desenvolvidor por:
-        <a href="https://okborges.com" target="_blank">okborges</a>.
       </p>
     </div>
   </footer>
@@ -71,6 +67,6 @@ export default { components: { LogoPreserv } };
   background-color: #111827;
 }
 .laranjinha {
-  background-color: #dd2c00;
+  color: #dd2c00;
 }
 </style>

@@ -1,6 +1,16 @@
 <template>
   <section class="my-28">
-    <h1 class="text-center font-semibold text-4xl">Nossos Clientes</h1>
+    <h1 class="text-center font-semibold text-4xl">
+      Nossos Parceiros e Clientes
+    </h1>
+    <div class="flex flex-wrap justify-center pt-12">
+      <img class="img-logos" src="../static/img/lg-parceiro.webp" alt="" />
+      <img class="img-logos" src="../static/img/fujitsu-parceiro.webp" alt="" />
+      <img class="img-logos" src="../static/img/enig-parceiro.webp" alt="" />
+      <img class="img-logos" src="../static/img/best-parceiro.webp" alt="" />
+      <img class="img-logos" src="../static/img/dakin-parceiro.webp" alt="" />
+      <img class="img-logos" src="../static/img/trane-parceiro.svg" alt="" />
+    </div>
     <div class="flex flex-wrap justify-center pt-12">
       <img class="img-logos" src="../static/img/itau-logo.webp" alt="" />
       <img class="img-logos" src="../static/img/safra-logo.webp" alt="" />
@@ -38,12 +48,6 @@ export default {};
 .img-logos {
   height: 40px;
   margin: 20px 40px;
-  filter: grayscale(1);
-  opacity: 0.4;
   cursor: pointer;
-}
-.img-logos:hover {
-  filter: grayscale(0);
-  opacity: 100%;
 }
 </style>
