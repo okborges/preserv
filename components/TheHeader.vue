@@ -1,8 +1,5 @@
 <template>
   <header>
-    <div class="hidden sm:block">
-      <TopHeader />
-    </div>
     <div class="mx-8">
       <div class="max-w-6xl mx-auto sm:mt-9">
         <div
@@ -39,9 +36,8 @@
 </template>
 
 <script>
-import TopHeader from "./TopHeader.vue";
 import LogoPreserv from "./LogoPreserv.vue";
-export default { components: { TopHeader, LogoPreserv } };
+export default { components: { LogoPreserv } };
 </script>
 
 <style scoped>
