@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-black">
     <div class="mx-8">
-      <div class="max-w-6xl mx-auto sm:mt-9">
+      <div class="max-w-6xl mx-auto">
         <div class="grid gap-16 lg:grid-cols-3 py-16">
           <div class="hidden lg:block">
             <svg

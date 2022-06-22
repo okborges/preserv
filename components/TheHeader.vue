@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="mx-8">
-      <div class="max-w-6xl mx-auto sm:mt-9">
+      <div class="max-w-6xl mx-auto py-6">
         <div
           class="flex justify-center items-center mt-4 sm:mt-0 lg:justify-between"
         >

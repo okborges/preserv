@@ -1,11 +1,12 @@
 <template>
-  <main class="mx-8">
-    <h4 class="poppins">teste hahaha</h4>
+  <main>
+    <SectionUm />
   </main>
 </template>
 
 <script>
-export default {};
+import SectionUm from "./SectionUm.vue";
+export default { components: { SectionUm } };
 </script>
 
 <style scoped>
