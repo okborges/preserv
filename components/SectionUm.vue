@@ -1,7 +1,7 @@
 <template>
   <section class="bg-preto-fosco">
     <div class="mx-8">
-      <div class="max-w-6xl mx-auto">
+      <div class="max-w-6xl mx-auto grid grid-cols-2 py-8">
         <div class="py-28">
           <h1 class="poppins text-white font-bold fonte-40 mb-8">
             SOLUÇÕES INTEGRADAS<br />
@@ -13,12 +13,15 @@
               E <span class="text-azul-3 poppins">CLIMATIZAÇÃO</span>.</span
             >
           </h1>
-          <p class="text-cinza-claro max-w-lg fonte-30 mb-8">
+          <p class="text-cinza-claro max-w-lg fonte-30 mb-5">
             Inovação, sustentabilidade e tecnologia. Há mais de
             <span class="text-azul-3">30 anos</span>
             entregando excelência e confiabilidade.
           </p>
-          <a href="" class="btn text-white font-bold">ENTRE EM CONTATO</a>
+          <a href="" class="btn text-white poppins text-lg">ENTRE EM CONTATO</a>
+        </div>
+        <div class="flex justify-end">
+          <img src="../static/img/img-1.webp" alt="" class="img-1" />
         </div>
       </div>
     </div>
@@ -48,9 +51,15 @@ export default {};
 }
 .btn {
   display: inline-block;
-  padding: 12px 22px;
+  padding: 16px 32px;
   background: linear-gradient(180deg, #2b719a 0%, #0c4a6e 100%);
   border-radius: 4px;
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+.img-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 </style>
