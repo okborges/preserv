@@ -10,6 +10,6 @@ export default {
 
 <style>
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 </style>

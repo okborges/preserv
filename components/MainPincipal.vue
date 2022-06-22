@@ -1,6 +1,6 @@
 <template>
   <main class="mx-8">
-    <h4>teste hahaha</h4>
+    <h4 class="poppins">teste hahaha</h4>
   </main>
 </template>
 
@@ -8,4 +8,8 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+</style>

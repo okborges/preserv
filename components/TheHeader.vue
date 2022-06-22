@@ -393,11 +393,11 @@
           <div class="flex space-x-7">
             <nav class="hidden lg:flex">
               <ul class="fonte-azul space-x-6 flex font-medium text-xl">
-                <li><NuxtLink to="/" class="p-2">Home</NuxtLink></li>
-                <li><a href="#servicos" class="p-2">Serviços</a></li>
-                <li><a href="#produtos" class="p-2">Produtos</a></li>
-                <li><a href="#clientes" class="p-2">Clientes</a></li>
-                <li><a href="#contato" class="p-2">Contato</a></li>
+                <li><NuxtLink to="/" class="p-2 poppins">Home</NuxtLink></li>
+                <li><a href="#servicos" class="p-2 poppins">Serviços</a></li>
+                <li><a href="#produtos" class="p-2 poppins">Produtos</a></li>
+                <li><a href="#clientes" class="p-2 poppins">Clientes</a></li>
+                <li><a href="#contato" class="p-2 poppins">Contato</a></li>
               </ul>
             </nav>
           </div>
@@ -406,11 +406,11 @@
           <ul
             class="fonte-azul gap-6 flex flex-wrap font-medium justify-center"
           >
-            <li><a href="/">Home</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="/" class="poppins">Home</a></li>
+            <li><a href="#servicos" class="poppins">Serviços</a></li>
+            <li><a href="#produtos" class="poppins">Produtos</a></li>
+            <li><a href="#clientes" class="poppins">Clientes</a></li>
+            <li><a href="#contato" class="poppins">Contato</a></li>
           </ul>
         </nav>
       </div>
@@ -426,6 +426,9 @@ export default { components: { LogoPreserv } };
 <style scoped>
 .fonte-azul {
   color: #0ea5e9;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
 
 .fonte-azul a:hover {
