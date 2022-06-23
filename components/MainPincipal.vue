@@ -1,6 +1,6 @@
 <template>
   <main>
-    <SectionUm />
+    
   </main>
 </template>
 
