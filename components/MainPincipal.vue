@@ -1,8 +1,8 @@
 <template>
-  <main class="bg-preto-fosco">
-    <div class="mx-5">
-      <div class="text-white grid grid-cols-2 max-w-6xl mx-auto">
-        <div class="self-end pb-20">
+  <main class="mb-96 bg-inicial px-5">
+    <div class="pt-10 introducao max-w-6xl mx-auto">
+      <div class="text-white grid grid-cols-2">
+        <div class="self-end pb-48">
           <h1 class="pb-8 h1 poppins">
             <span class="solucoes poppins">SOLUÇÕES INTEGRADAS</span> DE
             <span class="text-azul-3 poppins">ENGENHARIA</span> E
@@ -14,7 +14,9 @@
           </p>
           <a href="/" class="btn-inicial">ENTRE EM CONTATO</a>
         </div>
-        <img src="../static/img/img-1.webp" alt="" class="imagem" />
+        <div>
+          <img src="../static/img/img-1.webp" alt="" class="imagem" />
+        </div>
       </div>
     </div>
   </main>
@@ -52,5 +54,16 @@ export default {};
 }
 .btn-inicial:hover {
   background: linear-gradient(#0d7db1, #0a3d5a);
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 4px;
+}
+.bg-inicial {
+  background-color: #222222;
+  box-shadow: inset 0 -120px white;
 }
 </style>
