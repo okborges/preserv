@@ -392,7 +392,9 @@
             </svg>
           </a>
           <nav>
-            <ul class="header-menu flex flex-wrap gap-5 justify-center">
+            <ul
+              class="header-menu flex flex-wrap gap-5 justify-center sm:gap-10"
+            >
               <li>
                 <a href="./">Home</a>
               </li>
@@ -417,8 +419,7 @@
 </template>
 
 <script>
-import LogoPreserv from "./LogoPreserv.vue";
-export default { components: { LogoPreserv } };
+export default {};
 </script>
 
 <style scoped>
