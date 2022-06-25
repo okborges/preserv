@@ -3,7 +3,7 @@
     <div class="px-5">
       <div class="max-w-6xl mx-auto py-6">
         <div
-          class="flex flex-wrap gap-5 items-center justify-center sm:justify-between"
+          class="flex flex-wrap gap-5 items-center justify-center md:justify-between"
         >
           <a href="./">
             <svg

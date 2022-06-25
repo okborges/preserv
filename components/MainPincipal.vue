@@ -1,8 +1,8 @@
 <template>
   <main class="mb-96 bg-inicial px-5">
     <div class="pt-10 introducao max-w-6xl mx-auto">
-      <div class="text-white grid grid-cols-2">
-        <div class="self-end pb-48 max-w-lg">
+      <div class="text-white grid lg:grid-cols-2">
+        <div class="self-end max-w-lg pb-8 lg:pb-48 mx-auto lg:mx-0">
           <h1 class="pb-8 titulo">
             <span class="solucoes">SOLUÇÕES INTEGRADAS</span>
             <span class="engenharia"
@@ -19,7 +19,7 @@
           </p>
           <a href="/" class="btn-inicial">ENTRE EM CONTATO</a>
         </div>
-        <div class="flex justify-end">
+        <div class="flex lg:justify-end">
           <img src="../static/img/img-1.webp" alt="" class="imagem" />
         </div>
       </div>
@@ -44,16 +44,16 @@ export default {};
 .engenharia {
   font-size: 3.84rem;
 }
+.paragrafo {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
 .detalhe {
   color: #0ea5e9;
 }
 .imagem {
   max-width: 100%;
   display: block;
-}
-.paragrafo {
-  font-size: 1.4rem;
-  line-height: 1.5;
 }
 .btn-inicial {
   display: inline-block;
@@ -80,7 +80,36 @@ export default {};
   box-shadow: inset 0 -120px white;
 }
 
-.gambiarra {
-  font-size: 94%;
+@media (max-width: 1024px) {
+  .introducao img {
+    height: 300px;
+    width: 100%;
+    object-position: bottom;
+  }
+  .btn-inicial {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    line-height: 1.33;
+  }
+}
+@media (max-width: 640px) {
+  .titulo {
+    font-size: 2.4rem;
+    max-width: 13ch;
+  }
+  .solucoes {
+    font-size: 1.7rem;
+  }
+  .engenharia {
+    font-size: 2.5rem;
+  }
+  .paragrafo {
+    max-width: 340px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .paragrafo br {
+    display: none;
+  }
 }
 </style>
