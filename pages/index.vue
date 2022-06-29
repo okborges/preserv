@@ -1,5 +1,8 @@
 <template>
-  <MainPincipal />
+  <div>
+    <MainPincipal />
+    <SectionUm />
+  </div>
 </template>
 
 <script>

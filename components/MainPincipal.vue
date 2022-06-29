@@ -1,5 +1,5 @@
 <template>
-  <main class="mb-96 bg-inicial px-5">
+  <main class="pb-24 bg-inicial px-5">
     <div class="pt-10 introducao max-w-6xl mx-auto">
       <div class="text-white grid lg:grid-cols-2">
         <div class="self-end max-w-lg pb-8 lg:pb-48 mx-auto lg:mx-0">
@@ -77,7 +77,7 @@ export default {};
 }
 .bg-inicial {
   background-color: #222222;
-  box-shadow: inset 0 -120px white;
+  box-shadow: inset 0 -120px #fafafa;
 }
 
 @media (max-width: 1024px) {

@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="bg-clarinho">
     <div class="px-5">
       <div class="max-w-6xl mx-auto py-6">
         <div
@@ -423,6 +423,9 @@ export default {};
 </script>
 
 <style scoped>
+.bg-clarinho {
+  background-color: #fafafa;
+}
 .header-menu a {
   display: inline-block;
   font-family: "Poppins", sans-serif;
