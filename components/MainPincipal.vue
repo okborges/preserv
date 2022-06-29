@@ -63,7 +63,7 @@ export default {};
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-size: 1.125rem;
   line-height: 1.33;
-  font-weight: bold;
+  font-weight: 600;
 }
 .btn-inicial:hover {
   background: linear-gradient(#0d7db1, #0a3d5a);

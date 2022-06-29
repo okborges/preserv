@@ -390,14 +390,14 @@
             </svg>
           </div>
           <div class="mb-5 lg:my-0">
-            <h3 class="text-white pt-2 pb-8 poppins font-medium text-lg">
+            <h3 class="text-white pt-2 pb-8  font-normal text-lg">
               CONTATO
             </h3>
             <ul>
               <li class="mb-4">
                 <a
                   href="#"
-                  class="text-cinza-claro text-lg font-medium hover:text-white"
+                  class="text-cinza-claro text-lg font-normal hover:text-white"
                 >
                   (11) 3384-3313
                 </a>
@@ -405,7 +405,7 @@
               <li class="mb-4">
                 <a
                   href="#"
-                  class="text-cinza-claro text-lg font-medium hover:text-white"
+                  class="text-cinza-claro text-lg font-normal hover:text-white"
                 >
                   (11) 9 9166-2288
                 </a>
@@ -503,30 +503,30 @@
             </ul>
           </div>
           <div class="">
-            <h3 class="text-white pt-2 pb-8 poppins font-medium text-lg">
+            <h3 class="text-white pt-2 pb-8  font-medium text-lg">
               INFORMAÇÕES
             </h3>
             <a
               href="#"
-              class="text-cinza-claro poppins mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
             >
               Serviços
             </a>
             <a
               href="#"
-              class="text-cinza-claro poppins mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
             >
               Contato
             </a>
             <a
               href="#"
-              class="text-cinza-claro poppins mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
             >
               Produtos
             </a>
             <a
               href="#"
-              class="text-cinza-claro poppins mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
             >
               Clientes
             </a>
@@ -546,9 +546,7 @@ export default { components: { LogoPreserv } };
 </script>
 
 <style scoped>
-.poppins {
-  font-family: "Poppins", sans-serif;
-}
+
 .risco {
   content: "";
   display: block;
