@@ -2,11 +2,11 @@
   <section class="bg-clarinho px-5 pb-24">
     <div class="max-w-6xl mx-auto">
       <h2
-        class="text-center text-4xl font-normal pb-16 text-preto-fosco sm:text-6xl"
+        class="h2 text-center text-5xl font-normal pb-16 text-preto-fosco lg:text-6xl"
       >
         Por que escolher a <span class="text-azul-1">Preserv ?</span>
       </h2>
-      <div class="grid justify-center gap-10 xl:grid-cols-3">
+      <div class="grid justify-center gap-10 lg:grid-cols-3">
         <div class="card text-center py-5">
           <div class="pb-8">
             <svg
@@ -156,7 +156,7 @@ export default {};
 .card {
   display: grid;
   justify-items: center;
-  width: 350px;
+  width: 100%;
   height: auto;
 
   background: #ffffff;
@@ -167,5 +167,23 @@ export default {};
   cursor: pointer;
   box-shadow: 0px 0px 0px 6px #e0f2fe;
   transition: 0.2s;
+}
+.h2 {
+  line-height: 3.3rem;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
+}
+@media (max-width: 640px) {
+  .card {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
   <footer class="bg-black">
     <div class="px-5">
       <div class="max-w-6xl mx-auto">
-        <div class="grid gap-16 lg:grid-cols-3 py-16">
+        <div class="grid gap-16 md:grid-cols-3 py-16">
           <div class="hidden lg:block">
             <svg
               width="214"
@@ -390,9 +390,7 @@
             </svg>
           </div>
           <div class="mb-5 lg:my-0">
-            <h3 class="text-white pt-2 pb-8  font-normal text-lg">
-              CONTATO
-            </h3>
+            <h3 class="text-white pt-2 pb-8 font-normal text-lg">CONTATO</h3>
             <ul>
               <li class="mb-4">
                 <a
@@ -503,30 +501,30 @@
             </ul>
           </div>
           <div class="">
-            <h3 class="text-white pt-2 pb-8  font-medium text-lg">
+            <h3 class="text-white pt-2 pb-8 font-medium text-lg">
               INFORMAÇÕES
             </h3>
             <a
               href="#"
-              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro mb-4 text-lg font-medium block hover:text-white"
             >
               Serviços
             </a>
             <a
               href="#"
-              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro mb-4 text-lg font-medium block hover:text-white"
             >
               Contato
             </a>
             <a
               href="#"
-              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro mb-4 text-lg font-medium block hover:text-white"
             >
               Produtos
             </a>
             <a
               href="#"
-              class="text-cinza-claro  mb-4 text-lg font-medium block hover:text-white"
+              class="text-cinza-claro mb-4 text-lg font-medium block hover:text-white"
             >
               Clientes
             </a>
@@ -546,7 +544,6 @@ export default { components: { LogoPreserv } };
 </script>
 
 <style scoped>
-
 .risco {
   content: "";
   display: block;
