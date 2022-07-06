@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-clarinho px-5 pb-24">
+  <article class="bg-clarinho px-5 pb-24">
     <div class="max-w-6xl mx-auto">
       <h2
         class="h2 text-center text-5xl font-normal pb-16 text-preto-fosco lg:text-6xl"
@@ -142,7 +142,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <script>
