@@ -5,7 +5,7 @@
         <div class="imagem hidden lg:block">
           <img class="rounded" src="../static/img/img-2.webp" alt="" />
         </div>
-        <div class="py-5 lg:pt-28 lg:pl-5">
+        <div class="py-10 lg:pt-28 lg:pl-5">
           <h2 class="titulo pb-9">
             Benefícios de um<br />
             <span class="text-azul-3">Ambiente Climatizado</span>.
@@ -56,7 +56,6 @@ export default {};
   background-color: #0ea5e9;
   margin-top: 4px;
 }
-
 .imagem {
   height: 100%;
   width: 100%;

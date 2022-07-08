@@ -1,11 +1,11 @@
 <template>
-  <section class="bg-claro pt-28">
-    <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl px-5">
+  <section class="bg-claro pt-10 sm:pt-28">
+    <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl px-5 pb-10">
       Nossos parceiros e clientes<span class="text-azul-3">.</span>
     </h2>
     <div class="bg-branco px-5">
       <div class="conteiner">
-        <div class="flex justify-center pb-20 pt-32">
+        <div class="flex justify-center pb-20 pt-10 sm:pt-32">
           <img src="../static/img/parceiros.webp" alt="" />
         </div>
         <div class="clientes pb-36">
@@ -64,6 +64,12 @@ export default {};
 @media (max-width: 768px) {
   .bg-branco {
     background-size: 200% 105%;
+  }
+}
+@media (max-width: 639px) {
+  .bg-branco {
+    background-image: none;
+    background-color: #ffffff;
   }
 }
 </style>
