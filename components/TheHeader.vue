@@ -8,10 +8,10 @@
         <nav>
           <ul class="header-menu flex flex-wrap gap-5 justify-center sm:gap-10">
             <li><a href="./">Home</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="/#servicos">Serviços</a></li>
+            <li><a href="/#produtos">Produtos</a></li>
+            <li><a href="/#clientes">Clientes</a></li>
+            <li><a href="/contato">Contato</a></li>
           </ul>
         </nav>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-claro pt-10 sm:pt-28">
+  <section class="bg-claro pt-10 sm:pt-28" id="clientes">
     <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl px-5 pb-10">
       Nossos parceiros e clientes<span class="text-azul-3">.</span>
     </h2>

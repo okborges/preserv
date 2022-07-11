@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-inicial px-5">
+  <section class="bg-inicial px-5" id="produtos">
     <div class="max-w-6xl mx-auto">
       <div class="grid lg:grid-cols-2 gap-5">
         <div class="imagem hidden lg:block">
@@ -15,7 +15,7 @@
             tipos de ambientes e já deixou de ser um item de luxo para se tornar
             um item necessário em diversos locais.
           </p>
-          <a href="" class="saiba">SAIBA MAIS</a>
+          <a href="/beneficios" class="saiba">SAIBA MAIS</a>
         </div>
       </div>
     </div>

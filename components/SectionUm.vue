@@ -1,49 +1,55 @@
 <template>
-  <article class="bg-clarinho px-5 pb-24">
+  <article class="bg-clarinho px-5 pb-24" id="servicos">
     <div class="max-w-6xl mx-auto">
       <h2 class="h2">
         Por que escolher a <span class="text-azul-1">Preserv ?</span>
       </h2>
       <div class="grid justify-center gap-10 lg:grid-cols-3">
         <div class="card text-center py-5">
-          <div class="pb-8">
-            <img src="../static/icone-card-1.svg" alt="" />
-          </div>
-          <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
-            Seguimos normas técnicas
-          </h3>
-          <p class="p-2 text-cinza-escuro">
-            Em todo e qualquer procedimento de instalação e manutenção cumprimos
-            padrões e normas, do início ao fim, para o conforto e segurança de
-            todos os nossos clientes!
-          </p>
+          <a href="/normas">
+            <div class="pb-8">
+              <img src="../static/icone-card-1.svg" alt="" class="inline" />
+            </div>
+            <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
+              Seguimos normas técnicas
+            </h3>
+            <p class="p-2 text-cinza-escuro">
+              Em todo e qualquer procedimento de instalação e manutenção
+              cumprimos padrões e normas, do início ao fim, para o conforto e
+              segurança de todos os nossos clientes!
+            </p>
+          </a>
         </div>
         <div class="card text-center py-5">
-          <div class="pb-8">
-            <img src="../static/icone-card-2.svg" alt="" />
-          </div>
-          <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
-            Somos sustentáveis
-          </h3>
-          <p class="p-2 text-cinza-escuro">
-            Atendemos todas as instruções normativas do IBAMA (Instituto
-            Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) e
-            <br />
-            CONAMA.
-          </p>
+          <a href="/sustentabilidade">
+            <div class="pb-8">
+              <img src="../static/icone-card-2.svg" alt="" class="inline" />
+            </div>
+            <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
+              Somos sustentáveis
+            </h3>
+            <p class="p-2 text-cinza-escuro">
+              Atendemos todas as instruções normativas do IBAMA (Instituto
+              Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) e
+              <br />
+              CONAMA.
+            </p>
+          </a>
         </div>
         <div class="card text-center py-5">
-          <div class="pb-8">
-            <img src="../static/icone-card-3.svg" alt="" />
-          </div>
-          <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
-            Experiência Certificada
-          </h3>
-          <p class="p-2 text-cinza-escuro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus
-            pellentesque quisque tincidunt amet, volutpat. Viverra pellentesque
-            faucibus vitae aliquam, dignissim.
-          </p>
+          <a href="certificados">
+            <div class="pb-8">
+              <img src="../static/icone-card-3.svg" alt="" class="inline" />
+            </div>
+            <h3 class="pb-2 text-lg font-semibold text-preto-fosco">
+              Experiência Certificada
+            </h3>
+            <p class="p-2 text-cinza-escuro">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus
+              pellentesque quisque tincidunt amet, volutpat. Viverra
+              pellentesque faucibus vitae aliquam, dignissim.
+            </p>
+          </a>
         </div>
       </div>
     </div>

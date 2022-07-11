@@ -12,23 +12,28 @@
         </ul>
         <div class="flex gap-10">
           <a
+            target="_blank"
             href="https://www.facebook.com/Preserv-Engenharia-1307261656113671/"
             ><img src="../static/Facebook.svg" alt=""
           /></a>
-          <a href="https://www.instagram.com/preserv.engenharia/"
+          <a
+            target="_blank"
+            href="https://www.instagram.com/preserv.engenharia/"
             ><img src="../static/Instagram.svg" alt=""
           /></a>
-          <a href=""><img src="../static/WhatsApp.svg" alt="" /></a>
+          <a target="_blank" href=""
+            ><img src="../static/WhatsApp.svg" alt=""
+          /></a>
         </div>
       </div>
       <div>
         <h3 class="text-white pt-2 pb-8 font-medium text-lg">INFORMAÇÕES</h3>
         <nav>
           <ul class="itens-lista">
-            <li><a href="#" class="font-medium">Serviços</a></li>
-            <li><a href="#" class="font-medium">Contato</a></li>
-            <li><a href="#" class="font-medium">Produtos</a></li>
-            <li><a href="#" class="font-medium">Clientes</a></li>
+            <li><a href="/#servicos" class="font-medium">Serviços</a></li>
+            <li><a href="/contato" class="font-medium">Contato</a></li>
+            <li><a href="/#produtos" class="font-medium">Produtos</a></li>
+            <li><a href="/#clientes" class="font-medium">Clientes</a></li>
           </ul>
         </nav>
       </div>
