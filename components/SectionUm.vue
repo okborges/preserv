@@ -1,9 +1,7 @@
 <template>
   <article class="bg-clarinho px-5 pb-24" id="servicos">
     <div class="max-w-6xl mx-auto">
-      <h2 class="h2">
-        Por que escolher a <span class="text-azul-1">Preserv ?</span>
-      </h2>
+      <h2 class="h2">Por que escolher a Preserv?</h2>
       <div class="grid justify-center gap-10 lg:grid-cols-3">
         <div class="card text-center py-5">
           <a href="/normas">
@@ -76,7 +74,7 @@ export default {};
 }
 .card:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 0px 6px #e0f2fe;
+  box-shadow: 0px 0px 0px 6px #83d9ff;
   transition: 0.2s;
 }
 .h2 {

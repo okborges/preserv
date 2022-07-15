@@ -1,9 +1,9 @@
 <template>
   <main class="pb-24 bg-inicial px-5">
-    <div class="pt-10 introducao max-w-6xl mx-auto">
+    <div class="introducao max-w-6xl mx-auto">
       <div class="text-white grid lg:grid-cols-2">
-        <div class="self-end max-w-lg pb-8 lg:pb-48 mx-auto lg:mx-0">
-          <h1 class="pb-8 titulo">
+        <div class="max-w-lg pb-8 pt-8 lg:pt-24 mx-auto lg:mx-0">
+          <h1 class="pb-7 titulo">
             <span class="solucoes">SOLUÇÕES INTEGRADAS</span>
             <span class="engenharia"
               >DE <span class="detalhe">ENGENHARIA</span></span
@@ -11,13 +11,16 @@
             E
             <span class="detalhe">CLIMATIZAÇÃO</span>
           </h1>
-          <p class="pb-5 paragrafo text-cinza-claro">
+          <p class="pb-9 paragrafo text-cinza-claro">
             Inovação, sustentabilidade e tecnologia.<br />
             Há mais de <span class="detalhe">30 anos</span> entregando
             excelência<br />
             e confiabilidade.
           </p>
-          <a href="/" class="btn-inicial">ENTRE EM CONTATO</a>
+          <div class="text-center">
+            <a href="/contato" class="btn-inicial mb-4">ENTRE EM CONTATO</a>
+            <span class="text-azul-5 block">Retorno em até 24h!</span>
+          </div>
         </div>
         <div class="flex lg:justify-end">
           <img src="../static/img/img-1.webp" alt="" class="imagem" />
@@ -33,16 +36,16 @@ export default {};
 
 <style scoped>
 .titulo {
-  font-size: 3.65rem;
-  line-height: 1.125;
+  font-size: 3.8rem;
+  line-height: 1.2;
   font-weight: 600;
   max-width: 20ch;
 }
 .solucoes {
-  font-size: 2.6rem;
+  font-size: 2.7rem;
 }
 .engenharia {
-  font-size: 3.84rem;
+  font-size: 4rem;
 }
 .paragrafo {
   font-size: 1.4rem;
@@ -52,7 +55,7 @@ export default {};
   color: #0ea5e9;
 }
 .imagem {
-  max-width: 100%;
+  max-width: 91%;
   display: block;
 }
 .btn-inicial {
@@ -77,9 +80,21 @@ export default {};
 }
 .bg-inicial {
   background-color: #222222;
-  box-shadow: inset 0 -120px #fafafa;
+  box-shadow: inset 0 -120px #fafafa, inset 0 25px #fafafa;
 }
 
+@media (max-width: 1060px) {
+  .titulo {
+    font-size: 3.6rem;
+    max-width: 13ch;
+  }
+  .solucoes {
+    font-size: 2.55rem;
+  }
+  .engenharia {
+    font-size: 3.8rem;
+  }
+}
 @media (max-width: 1024px) {
   .introducao img {
     height: 300px;
@@ -90,6 +105,9 @@ export default {};
     padding: 12px 24px;
     font-size: 1.1rem;
     line-height: 1.33;
+  }
+  .imagem {
+    max-width: 100%;
   }
 }
 @media (max-width: 640px) {
