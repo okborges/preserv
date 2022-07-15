@@ -32,7 +32,7 @@
           <ul class="itens-lista">
             <li><a href="/#servicos" class="font-medium">Serviços</a></li>
             <li><a href="/contato" class="font-medium">Contato</a></li>
-            <li><a href="/#produtos" class="font-medium">Produtos</a></li>
+            <li><a href="/#produtos" class="font-medium">Sobre nós</a></li>
             <li><a href="/#clientes" class="font-medium">Clientes</a></li>
           </ul>
         </nav>

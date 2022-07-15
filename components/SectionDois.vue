@@ -1,11 +1,11 @@
 <template>
   <section class="bg-inicial px-5" id="produtos">
-    <div class="max-w-6xl mx-auto">
+    <div class="conteiner">
       <div class="grid lg:grid-cols-2 gap-5">
-        <div class="imagem hidden lg:block">
+        <div class="imagem hidden pr-10 lg:flex lg:justify-end">
           <img class="rounded" src="../static/img/img-2.webp" alt="" />
         </div>
-        <div class="py-10 lg:pt-28 lg:pl-5">
+        <div class="py-10 lg:pt-40 lg:pl-5">
           <h2 class="titulo pb-9">
             Benefícios de um<br />
             <span class="text-azul-3">Ambiente Climatizado</span>.
@@ -64,6 +64,10 @@ export default {};
 .paragrafo {
   max-width: 536px;
   line-height: 30px;
+}
+.conteiner {
+  max-width: 1920px;
+  margin: auto;
 }
 @media (max-width: 1024px) {
   .bg-inicial {
