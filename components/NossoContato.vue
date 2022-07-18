@@ -15,7 +15,7 @@
               >dir@preserv.eng.br</a
             >
           </address>
-          <div class="flex gap-10 pl-8">
+          <div class="flex gap-10 lp-0 sm:pl-8">
             <a
               target="_blank"
               href="https://www.facebook.com/Preserv-Engenharia-1307261656113671/"
@@ -88,7 +88,7 @@
           </div>
         </div>
 
-        <div class="bg-white campo-branco form">
+        <div class="bg-white form">
           <div>
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome" />
@@ -213,10 +213,19 @@ export default {};
   .contatos {
     grid-template-columns: 1fr;
   }
+  .campo-preto {
+    border-radius: 5px 5px 0px 0px;
+    filter: none;
+  }
+  .form {
+    border-radius: 0px 0px 5px 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
+    padding: 30px;
   }
   .form .col-2 {
     grid-column: 1;

@@ -58,6 +58,7 @@ export default {};
 @media (max-width: 640px) {
   .detalhe {
     font-size: 3.7rem;
+    line-height: 80px;
     max-width: 20ch;
   }
   .detalhe span {
