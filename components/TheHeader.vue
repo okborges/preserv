@@ -11,7 +11,7 @@
             <li><a href="/#servicos">Serviços</a></li>
             <li><a href="/#produtos">Sobre nós</a></li>
             <li><a href="/#clientes">Clientes</a></li>
-            <li><a href="/contato">Contato</a></li>
+            <li><a href="/#contato">Contato</a></li>
           </ul>
         </nav>
       </div>

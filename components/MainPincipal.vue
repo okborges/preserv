@@ -18,7 +18,7 @@
             e confiabilidade.
           </p>
           <div class="text-center">
-            <a href="/contato" class="btn-inicial mb-4">ENTRE EM CONTATO</a>
+            <a href="/#contato" class="btn-inicial mb-4">ENTRE EM CONTATO</a>
             <span class="text-azul-5 block">Retorno em até 24h!</span>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default {};
 .btn-inicial {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#0ea5e9, #0c4a6e);
+  background: linear-gradient(180deg, #0ea5e9 0%, #0e5680 100%);
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-size: 1.125rem;
