@@ -208,4 +208,18 @@ export default {};
 .btn-inicial:hover {
   background: linear-gradient(#0d7db1, #0a3d5a);
 }
+
+@media (max-width: 820px) {
+  .contatos {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}
 </style>
