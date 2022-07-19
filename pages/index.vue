@@ -1,11 +1,11 @@
 <template>
   <div>
     <MainPincipal />
-    <ServicosPrestados />
     <SectionUm />
     <SectionDois />
     <ParceirosClientes />
     <SobreNos />
+    <ServicosPrestados />
     <NossoContato />
   </div>
 </template>

@@ -1,19 +1,20 @@
 <template>
   <div class="renovacao pb-8 sm:pb-16">
+    <img class="hidden lg:block" src="../static/img/23.jpeg" />
     <div class="pl-0 sm:pl-16">
-      <h2 class="pb-5 sm:pb-10">Engenharia</h2>
+      <h2 class="pb-5 sm:pb-10">Serviços de Infra-estrutura</h2>
       <div class="pontos">
         <div class="conteiner-texto">
+          <p>Manutenção Industrial e Predial.</p>
+          <p>Obras de Infraestrutura.</p>
+          <p>Análise Técnica e Operacional de Sistemas de Infraestrutura.</p>
           <p>
-            Diagnóstico e análise de consumo e demanda de recursos (água,
-            energia elétrica, gás, temperatura e emissão de CO2).
+            Planejamento, coordenação e programação de intervenções através de
+            ferramentas de gestão de ativos.
           </p>
-          <p>Rastreabilidade e gestão do ciclo de vida útil dos ativos.</p>
-          <p>QSMS - Qualidade, Segurança, Meio Ambiente e Saúde.</p>
         </div>
       </div>
     </div>
-    <img class="hidden lg:block" src="../static/img/22.jpg" />
   </div>
 </template>
 
@@ -24,7 +25,7 @@ export default {};
 <style scoped>
 .renovacao {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   margin-left: auto;
   margin-right: auto;
   max-width: 1700px;

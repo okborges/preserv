@@ -1,8 +1,8 @@
 <template>
-  <div class="renovacao">
+  <div class="renovacao pb-8 sm:pb-16">
     <img class="hidden lg:block" src="../static/img/instalacao.webp" />
     <div class="pl-0 sm:pl-16">
-      <h2 class="pb-10">Condicionamento e renovação de ar</h2>
+      <h2 class="pb-5 sm:pb-10">Condicionamento e renovação de ar</h2>
       <div class="pontos">
         <div class="conteiner-texto">
           <p>Consultoria e Assessoria Técnica.</p>
@@ -47,8 +47,8 @@ export default {};
   color: #0ea5e9;
 }
 .renovacao img {
-  width: 520px;
-  height: 500px;
+  width: 720px;
+  height: 700px;
   object-fit: cover;
 }
 .pontos {

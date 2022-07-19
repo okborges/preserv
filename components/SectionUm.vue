@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-clarinho px-5 pb-24" id="servicos">
+  <article class="bg-clarinho px-5 pb-24">
     <div class="max-w-6xl mx-auto">
       <h2 class="h2">Por que escolher a Preserv?</h2>
       <div class="grid justify-center gap-10 lg:grid-cols-3">
