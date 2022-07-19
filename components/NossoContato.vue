@@ -172,8 +172,7 @@ export default {};
   margin-bottom: 4px;
   font-weight: 600;
 }
-.form input[type="text"],
-.form input[type="email"],
+.form input,
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background-color: #f7f7f7;
@@ -183,8 +182,7 @@ export default {};
   width: 100%;
   box-sizing: border-box;
 }
-.form input[type="text"]:focus,
-.form input[type="email"]:focus,
+.form input:focus,
 .form textarea:focus {
   outline: none;
   border-color: #0ea5e9;
@@ -225,7 +223,7 @@ export default {};
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
-    padding: 30px;
+    padding: 20px;
   }
   .form .col-2 {
     grid-column: 1;
