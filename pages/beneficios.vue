@@ -1,9 +1,88 @@
 <template>
-  <h1>pagina beneficios</h1>
+  <div>
+    <button @click="showModal = true">Save</button>
+    <SavedModal v-show="showModal" @close-modal="showModal = false" />
+  </div>
 </template>
 
 <script>
-export default {};
+import SavedModal from "~/components/SavedModal.vue";
+
+export default {
+  components: { SavedModal },
+  data() {
+    return {
+      showModal: false,
+    };
+  },
+};
 </script>
 
-<style></style>
+<style scoped>
+.content {
+  padding: 150px;
+}
+
+.inner {
+  margin: auto;
+  width: 65%;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 10px;
+  width: 160px;
+}
+
+h6 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+button {
+  background-color: #ac003e;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  border-radius: 16px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid #00000041;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.save-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+</style>

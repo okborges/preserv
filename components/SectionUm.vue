@@ -1,10 +1,10 @@
 <template>
-  <article class="bg-clarinho px-5 pb-24">
+  <section class="bg-clarinho px-5 pb-24">
     <div class="max-w-6xl mx-auto">
       <h2 class="h2">Por que escolher a Preserv?</h2>
       <div class="grid justify-center gap-10 lg:grid-cols-3">
         <div class="card text-center py-5">
-          <a href="/normas">
+          <a @click="showModal = true">
             <div class="pb-8">
               <img src="../static/icone-card-1.svg" alt="" class="inline" />
             </div>
@@ -17,9 +17,10 @@
               segurança de todos os nossos clientes!
             </p>
           </a>
+          <SavedModal v-show="showModal" @close-modal="showModal = false" />
         </div>
         <div class="card text-center py-5">
-          <a href="/sustentabilidade">
+          <a href="/">
             <div class="pb-8">
               <img src="../static/icone-card-2.svg" alt="" class="inline" />
             </div>
@@ -35,7 +36,7 @@
           </a>
         </div>
         <div class="card text-center py-5">
-          <a href="certificados">
+          <a href="/">
             <div class="pb-8">
               <img src="../static/icone-card-3.svg" alt="" class="inline" />
             </div>
@@ -51,11 +52,19 @@
         </div>
       </div>
     </div>
-  </article>
+  </section>
 </template>
-
 <script>
-export default {};
+import SavedModal from "~/components/SavedModal.vue";
+
+export default {
+  components: { SavedModal },
+  data() {
+    return {
+      showModal: false,
+    };
+  },
+};
 </script>
 
 <style scoped>
