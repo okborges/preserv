@@ -1,85 +1,84 @@
 <template>
-  <section class="bg-inicial px-5" id="produtos">
-    <div class="conteiner">
-      <div class="grid lg:grid-cols-2 gap-5">
-        <div class="imagem hidden pr-10 lg:flex lg:justify-end">
-          <img class="rounded" src="../static/img/img-2.webp" alt="" />
-        </div>
-        <div class="py-10 lg:pt-40 lg:pl-5">
-          <h2 class="titulo pb-9">
-            Benefícios de um<br />
-            <span class="text-azul-3">Ambiente Climatizado</span>.
-          </h2>
-          <p class="text-cinza-claro text-xl pb-7 paragrafo">
-            O ar-condicionado é considerado um item indispensável para todos os
-            tipos de ambientes e já deixou de ser um item de luxo para se tornar
-            um item necessário em diversos locais.
-          </p>
-          <a href="/beneficios" class="saiba">SAIBA MAIS</a>
-        </div>
+  <section class="px-5 pb-24 max-w-6xl mx-auto">
+    <p class="text-azul-800 text-center font-semibold">NOSSOS DIFERENCIAIS</p>
+    <h2
+      class="text-center text-azul-1000 font-semibold mb-16 text-4xl lg:text-6xl"
+    >
+      Por que a Preserv é uma<br class="hidden lg:block" />
+      referência no mercado?
+    </h2>
+
+    <div class="grid gap-10 lg:grid-cols-3">
+      <div class="card text-center">
+        <img src="~/assets/icon/icon-card-1.svg" alt="" />
+        <h3 class="text-lg font-semibold">Seguimos normas técnicas</h3>
+        <p>
+          Em todo e qualquer procedimento de instalação e manutenção cumprimos
+          padrões e normas, do início ao fim, para o conforto e segurança de
+          todos os nossos clientes!
+        </p>
+
+        <SavedModal v-show="showModal" @close-modal="showModal = false" />
+      </div>
+
+      <div class="card text-center">
+        <img src="~/assets/icon/icon-card-2.svg" alt="" />
+        <h3 class="text-lg font-semibold">Somos sustentáveis</h3>
+        <p>
+          Atendemos todas as instruções normativas do IBAMA (Instituto
+          Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) e
+          CONAMA.
+        </p>
+      </div>
+
+      <div class="card text-center">
+        <img src="~/assets/icon/icon-card-3.svg" alt="" />
+        <h3 class="text-lg font-semibold">Experiência Certificada</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus
+          pellentesque quisque tincidunt amet, volutpat. Viverra pellentesque
+          faucibus vitae aliquam, dignissim.
+        </p>
       </div>
     </div>
   </section>
 </template>
-
 <script>
 export default {};
 </script>
 
-<style scoped>
-.bg-inicial {
-  background-color: #222222;
-  box-shadow: inset 0 -30px #fafafa, inset 0 30px #fafafa;
-}
-.titulo {
-  color: #ffffff;
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 145%;
-}
-.titulo span {
-  font-size: 4rem;
-}
-.saiba {
-  display: inline-block;
-  color: #0ea5e9;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  position: relative;
-}
-.saiba::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  background-color: #0ea5e9;
-  margin-top: 4px;
-}
-.imagem {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-.paragrafo {
-  max-width: 536px;
-  line-height: 30px;
-}
-.conteiner {
-  max-width: 1920px;
-  margin: auto;
-}
-@media (max-width: 1024px) {
-  .bg-inicial {
-    box-shadow: none;
+<style lang="scss" scoped>
+section {
+  h2 {
+    line-height: 75px;
   }
-}
-@media (max-width: 640px) {
-  .titulo {
-    font-size: 2.3rem;
+  .card {
+    display: grid;
+    padding: 30px;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+
+    background: #ffffff;
+    border: 2px solid #0ea5e9;
+    border-radius: 18px;
+    filter: drop-shadow(0px 7.36842px 9.21053px rgba(0, 0, 0, 0.25));
+
+    p {
+      font-size: 14px;
+    }
   }
-  .titulo span {
-    font-size: 3rem;
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 6px #14668e;
+    transition: 0.2s;
+  }
+
+  @media (max-width: 1024px) {
+    h2 {
+      line-height: 50px;
+    }
   }
 }
 </style>
