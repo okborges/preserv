@@ -22,10 +22,6 @@
   </section>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style lang="scss" scoped>
 section {
   box-shadow: inset 0 -25px #eef0f5, inset 0 25px #eef0f5;
